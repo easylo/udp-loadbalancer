@@ -1,5 +1,5 @@
 FROM nginx:1.11-alpine
-MAINTAINER Laurent RICHARD <lrichard@lafourchette.com>
+MAINTAINER Laurent RICHARD <easylo@gmail.com>
 
 RUN apk update && apk upgrade && \
     apk add --no-cache bash git openssh
