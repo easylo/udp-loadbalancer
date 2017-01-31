@@ -8,7 +8,7 @@ fi
 echo "Nameserver is: $NAMESERVER"
 
 echo "Copying nginx config"
-envsubst < /nginx.conf > /etc/nginx/conf.d/default.conf
+envsubst < /nginx.conf >> /etc/nginx/nginx.conf
 
 echo "Starting nginx"
 nginx -g "daemon off;"
